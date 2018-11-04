@@ -1,0 +1,24 @@
+{
+  "name": "@smallwins/begin-starter-app",
+  "version": "1.0.0",
+  "description": "Basic starter app for Begin",
+  "scripts": {
+    "lint": "eslint app/src --ignore-pattern node_modules --fix",
+    "test": "cd ./app && NODE_ENV=testing tape test/*-test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallwins/begin-starter-app.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/smallwins/begin-starter-app/issues"
+  },
+  "homepage": "https://github.com/smallwins/begin-starter-app#readme",
+  "devDependencies": {
+    "@architect/architect": "^4.1.2",
+    "eslint": "^5.8.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
