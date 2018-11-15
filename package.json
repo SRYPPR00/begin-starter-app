@@ -1,6 +1,6 @@
 {
   "name": "@smallwins/begin-starter-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic starter app for Begin",
   "scripts": {
     "lint": "eslint app/src --ignore-pattern node_modules --fix",
@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/smallwins/begin-starter-app#readme",
   "devDependencies": {
-    "@architect/architect": "^4.3.8",
+    "@architect/architect": "^4.3.14",
     "eslint": "^5.9.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"

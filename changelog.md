@@ -1,5 +1,13 @@
 # Begin starter app changelog
 
+---
+
+## [1.0.2] - 2018-11-27
+
+### Changed
+
+- Updated starter app to `@architect/architect` 4.3.14
+
 
 ---
 
