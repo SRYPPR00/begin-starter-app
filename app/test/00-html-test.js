@@ -1,19 +1,17 @@
-var test = require('tape')
-var tiny = require('tiny-json-http')
-var sandbox = require('@architect/architect').sandbox
+let test = require('tape')
+let tiny = require('tiny-json-http')
+let sandbox = require('@architect/architect').sandbox
 
 test('env', t => {
   t.plan(1)
   t.ok(sandbox, 'sandbox')
 })
 
-let end
-test('sandbox.start', t => {
+let end // saves a reference to be used later to shut down the sandbox
+test('sandbox.start', async t => {
   t.plan(1)
-  sandbox.start((_end) => {
-    end = _end
-    t.ok(true, 'opened')
-  })
+  end = await sandbox.start()
+  t.ok(true, 'opened')
 })
 
 // callback style
@@ -26,9 +24,8 @@ test('get /', t => {
     if (err) {
       t.fail(err, err)
     } else {
-      t.ok(true, 'got result')
+      t.ok(true, 'got result', console.log(result.toString().substring(50) + '...'))
     }
-    console.log(err, result)
   })
 })
 
@@ -38,11 +35,9 @@ test('get /', t => {
   tiny.get({
     url: 'http://localhost:3333'
   }).then(function win (result) {
-    t.ok(true, 'got result')
-    console.log(result)
+    t.ok(true, 'got result', console.log(result.toString().substring(50) + '...'))
   }).catch(function fail (err) {
     t.fail(err, err)
-    console.log(err)
   })
 })
 
@@ -52,16 +47,14 @@ test('get /', async t => {
   try {
     var url = 'http://localhost:3333'
     var result = await tiny.get({url})
-    t.ok(true, 'got result')
-    console.log(result)
+    t.ok(true, 'got result',console.log(result.toString().substring(50) + '...'))
   } catch (e) {
-    t.fail(e, e)
-    console.log(e)
+    t.fail(e, e, console.log(e))
   }
 })
 
-test('sandbox.end', t => {
+test('shut down the sandbox', t=> {    
   t.plan(1)
   end()
-  t.ok(true, 'closed')
+  t.ok(true, 'shutdown successfully')
 })

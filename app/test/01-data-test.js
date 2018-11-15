@@ -121,5 +121,3 @@ test('data.get can read an entire namespace', t => {
     console.log(result)
   })
 })
-
-// TODO document incr, decr, pagination, batchDelete, batchRead
