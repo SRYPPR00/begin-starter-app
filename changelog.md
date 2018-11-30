@@ -2,18 +2,28 @@
 
 ---
 
+## [1.0.3] - 2018-11-29
+
+### Changed
+
+- Updated starter app to `@architect/architect` 4.4.2
+
+
+### Fixed
+
+- Adds back app config files that were inadvertently missing from npm package
+
+---
+
 ## [1.0.2] - 2018-11-27
 
 ### Changed
 
 - Updated starter app to `@architect/architect` 4.3.14
 
-
 ---
 
-
 ## [1.0.1] - 2018-11-14
-
 
 ### Changed
 
@@ -22,9 +32,7 @@
 
 ---
 
-
 ## [1.0.0] - 2018-11-04
-
 
 ### Added
 
@@ -36,7 +44,6 @@
 - Starter app now uses `@architect/architect` 4.x (specifically, `4.1.2`)
 - `.arc` file and test suite updated for to use new `@http` functions
 - npm does not allow the publishing of `package-lock.json` files, but it does allow the publishing of `npm-shrinkwrap.json` files, so those files are renamed here (but will renamed back again by Begin when provisioned to customers)
-
 
 ---
 

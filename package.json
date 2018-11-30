@@ -14,6 +14,10 @@
   "bugs": {
     "url": "https://github.com/smallwins/begin-starter-app/issues"
   },
+  "files": [
+    "app",
+    "!node_modules"
+  ],
   "homepage": "https://github.com/smallwins/begin-starter-app#readme",
   "devDependencies": {
     "@architect/architect": "^4.3.14",
