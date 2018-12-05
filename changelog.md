@@ -2,7 +2,7 @@
 
 ---
 
-## [1.0.4] - 2018-12-05
+## [1.0.5] - 2018-12-05
 
 ### Added
 
@@ -12,6 +12,13 @@
 ### Changed
 
 - Updated starter app to `@architect/architect` 4.4.4
+- Made commented code examples a little more clean and uniform
+- Linter now lints file helper
+
+
+### Fixed
+
+- Broken link to [HTTP function create doc](https://docs.begin.com/en/functions/http/)
 
 ---
 

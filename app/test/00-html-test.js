@@ -53,7 +53,7 @@ test('get /', async t => {
   }
 })
 
-test('shut down the sandbox', t=> {    
+test('shut down the sandbox', t=> {
   t.plan(1)
   end()
   t.ok(true, 'shutdown successfully')

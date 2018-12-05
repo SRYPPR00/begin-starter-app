@@ -4,7 +4,7 @@
   "description": "Basic starter app for Begin",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint app/src --ignore-pattern node_modules --fix",
+    "lint": "eslint . --fix",
     "test": "npm run lint && NODE_ENV=testing ARC_CONTRIB=yas ARC_LOCAL=yas tape test/**/*-test.js | tap-spec && cd ./app && NODE_ENV=testing tape test/*-test.js | tap-spec"
   },
   "repository": {

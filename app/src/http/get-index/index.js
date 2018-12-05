@@ -1,4 +1,4 @@
-// Begin enables secure sessions, express-style middleware, and more
+// Begin enables secure sessions, express-style middleware, and more:
 // let begin = require('@architect/functions')
 
 // TODO change defaultHTML
@@ -26,8 +26,7 @@ let defaultHTML = `
 `
 
 exports.handler = async function http(req) {
-  if (process.env.NODE_ENV !== 'production')
-    console.log(req)
+  if (process.env.NODE_ENV !== 'production') console.log(req)
 
   return {
     type: 'text/html; charset=utf8',
@@ -38,19 +37,16 @@ exports.handler = async function http(req) {
 // Example responses
 
 /* Forward requester to a new path
-exports.handler = async function http(request) {
-  if (process.env.NODE_ENV !== 'production') {
-    console.log(request)
-  }
+exports.handler = async function http(req) {
   return {
     status: 302,
-    location: '/staging/about',
+    location: '/about',
   }
 }
 */
 
 /* Respond with successful resource creation, CORS enabled
-exports.handler = async function http(request) {
+exports.handler = async function http(req) {
   return {
     status: 201,
     type: 'application/json',
@@ -61,7 +57,7 @@ exports.handler = async function http(request) {
 */
 
 /* Deliver client-side JS
-exports.handler = async function http(request) {
+exports.handler = async function http(req) {
   return {
     type: 'text/javascript',
     body: 'console.log("Hello world!")',
@@ -69,5 +65,6 @@ exports.handler = async function http(request) {
 }
 */
 
-// Learn more: https://begin.com/functions/http-functions
+// Learn more about building Begin HTTP functions:
+//  https://docs.begin.com/en/functions/http/
 
