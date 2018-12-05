@@ -2,6 +2,19 @@
 
 ---
 
+## [1.0.4] - 2018-12-05
+
+### Added
+
+- Module now returns a Buffer of any valid requested file in the starter app dir (`app/`)
+
+
+### Changed
+
+- Updated starter app to `@architect/architect` 4.4.4
+
+---
+
 ## [1.0.3] - 2018-11-29
 
 ### Changed
