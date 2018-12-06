@@ -2,6 +2,14 @@
 
 ---
 
+## [1.0.6] - 2018-12-06
+
+### Changed
+
+- Destructures body ref and adds simpler ref logging statement in boilerplate `GET /` function
+
+---
+
 ## [1.0.5] - 2018-12-05
 
 ### Added

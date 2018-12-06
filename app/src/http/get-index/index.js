@@ -1,8 +1,8 @@
 // Begin enables secure sessions, express-style middleware, and more:
 // let begin = require('@architect/functions')
 
-// TODO change defaultHTML
-let defaultHTML = `
+// TODO: modify the body object!
+let body = `
 <!doctype html>
 <html lang=en>
   <head>
@@ -26,11 +26,10 @@ let defaultHTML = `
 `
 
 exports.handler = async function http(req) {
-  if (process.env.NODE_ENV !== 'production') console.log(req)
-
+  console.log(req)
   return {
     type: 'text/html; charset=utf8',
-    body: defaultHTML
+    body
   }
 }
 
