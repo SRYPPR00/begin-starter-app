@@ -1,6 +1,6 @@
 {
   "name": "@smallwins/begin-starter-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Basic starter app for Begin",
   "main": "index.js",
   "scripts": {
