@@ -2,6 +2,14 @@
 
 ---
 
+## [1.0.7] - 2018-12-07
+
+### Changed
+
+- Updated starter app to `@architect/architect` 4.4.5
+
+---
+
 ## [1.0.6] - 2018-12-06
 
 ### Changed
