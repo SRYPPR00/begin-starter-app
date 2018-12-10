@@ -2,6 +2,14 @@
 
 ---
 
+## [1.0.8] - 2018-12-10
+
+### Added
+
+- Adds empty favicon into `GET /` template
+
+---
+
 ## [1.0.7] - 2018-12-07
 
 ### Changed

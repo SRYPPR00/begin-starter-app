@@ -9,6 +9,7 @@ let body = `
     <meta charset=utf-8>
     <title>Hi!</title>
     <link rel="stylesheet" href="https://static.begin.app/starter/default.css">
+    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
   </head>
   <body>
 
