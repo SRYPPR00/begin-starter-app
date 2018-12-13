@@ -5,9 +5,9 @@
   "requires": true,
   "dependencies": {
     "@architect/architect": {
-      "version": "4.4.5",
-      "resolved": "https://registry.npmjs.org/@architect/architect/-/architect-4.4.5.tgz",
-      "integrity": "sha512-ESGORoeP52RaJcvYAQM4UBRL5TwOCPCkXa+WJEz8DbQY2uXdhsJAVVa/80XLeawcJsTNqgwUDjCoaxrHLLyCZA==",
+      "version": "4.4.8",
+      "resolved": "https://registry.npmjs.org/@architect/architect/-/architect-4.4.8.tgz",
+      "integrity": "sha512-vK9HnZbP0W9fXNS8rRT0a965MAv+Pfhs65vpESmHcnfKvHQ5j2BfD74l5w8OTPr7Km1n1dVDRTlVObTrvMeEwg==",
       "requires": {
         "@architect/data": "^2.0.8",
         "@architect/parser": "^1.1.6",
@@ -38,12 +38,12 @@
       },
       "dependencies": {
         "@architect/data": {
-          "version": "2.0.8",
-          "resolved": "https://registry.npmjs.org/@architect/data/-/data-2.0.8.tgz",
-          "integrity": "sha512-oeg0i3RVDmNZ9X1faQ8tE9fluaGZ/ZJvfqMvZxOnhZkgHryIXlPiOmwSvPI9SNPiW/Q88Iy6+ww7GZ5xici84Q==",
+          "version": "2.0.9",
+          "resolved": "https://registry.npmjs.org/@architect/data/-/data-2.0.9.tgz",
+          "integrity": "sha512-W8/0qe+MhHLbrA0USQHiCNfqnIXYoIsbQv9T8lZSD7q6zTLC9kD7W1ULukcKFb0QJei9RogvvH8QJbRWmVA2bg==",
           "requires": {
-            "@architect/parser": "^1.0.6",
-            "chalk": "^2.3.0",
+            "@architect/parser": "^1.1.6",
+            "chalk": "^2.4.1",
             "path-exists": "^3.0.0"
           },
           "dependencies": {
@@ -235,9 +235,9 @@
       }
     },
     "aws-sdk": {
-      "version": "2.373.0",
-      "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.373.0.tgz",
-      "integrity": "sha512-NZYXwXGtFt9jxaKXc+PJsLPnpbD03t0MAZRxh93g36kbFMuRXtY8CDqHYNQ0ZcrgQpXbCQiz1fxT5/wu5Cu70g==",
+      "version": "2.375.0",
+      "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.375.0.tgz",
+      "integrity": "sha512-p0rRNstWUushzMlafNzQiPPucI/9PFe5hpZ0eKDSenZQD6DUmnXGEYwIwJ1KOZ0l7u1GBSgPdKswZglprZVXSA==",
       "requires": {
         "buffer": "4.9.1",
         "events": "1.1.1",
@@ -2787,7 +2787,7 @@
     },
     "yazl": {
       "version": "2.4.2",
-      "resolved": "http://registry.npmjs.org/yazl/-/yazl-2.4.2.tgz",
+      "resolved": "https://registry.npmjs.org/yazl/-/yazl-2.4.2.tgz",
       "integrity": "sha1-FMsZCD4eJacAksFYiqvg9OTdTYg=",
       "requires": {
         "buffer-crc32": "~0.2.3"

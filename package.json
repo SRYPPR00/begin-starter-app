@@ -21,8 +21,8 @@
   ],
   "homepage": "https://github.com/smallwins/begin-starter-app#readme",
   "devDependencies": {
-    "@architect/architect": "^4.4.5",
-    "eslint": "^5.9.0",
+    "@architect/architect": "^4.4.8",
+    "eslint": "^5.10.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"
   }
