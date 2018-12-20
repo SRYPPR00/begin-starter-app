@@ -2,6 +2,22 @@
 
 ---
 
+## [1.0.10] - 2018-12-20
+
+### Changed
+
+- Updated starter app to `@architect/architect` 4.4.11, and `@architect/functions` to 1.11.1
+
+---
+
+## [1.0.9] - 2018-12-12
+
+### Changed
+
+- Updated starter app to `@architect/architect` 4.4.8, and `@architect/functions` to 1.10.5
+
+---
+
 ## [1.0.8] - 2018-12-10
 
 ### Added

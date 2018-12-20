@@ -10,7 +10,7 @@ let starterAppIndexDeps = starterAppPath + 'src/http/get-index/npm-shrinkwrap.js
 let appVersion = '0.0.0'
 
 // All starter apps should always match
-let currentArcVersion = '4.4.8'
+let currentArcVersion = '4.4.11'
 
 // Reads packages
 function package(file) {
