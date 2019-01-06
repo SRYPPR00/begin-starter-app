@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
-    "test": "npm run lint && NODE_ENV=testing ARC_CONTRIB=yas ARC_LOCAL=yas tape test/**/*-test.js | tap-spec && cd ./app && NODE_ENV=testing tape test/*-test.js | tap-spec"
+    "test": "npm run lint && NODE_ENV=testing ARC_CONTRIB=yas ARC_LOCAL=yas tape test/*-test.js | tap-spec && cd ./app && NODE_ENV=testing tape test/*-test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "eslint": "^5.10.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "@begin/data": "^1.1.0"
   }
 }

@@ -2,6 +2,6 @@
   "name": "begin-app-get-index",
   "dependencies": {
     "@architect/functions": "latest",
-    "@begin/data": "latest"
+    "@begin/data": "^1.1.0"
   }
 }
