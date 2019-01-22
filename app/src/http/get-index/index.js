@@ -1,6 +1,7 @@
-// Learn how to use secure sessions, middleware, and more:
-// https://docs.begin.com/en/functions/http/
-//
+// Add simple, fast, scalable persistence: https://docs.begin.com/en/data/begin-data/
+// let data = require('@begin/data')
+
+// Add secure sessions, middleware, and more: https://docs.begin.com/en/functions/http/
 // let begin = require('@architect/functions')
 
 // TODO: modify the body object!

@@ -2,6 +2,28 @@
 
 ---
 
+## [1.1.11] - 2019-01-22
+
+### Changed
+
+- Updated starter app to `@architect/architect` 4.5.6, `@architect/functions` to 1.12.1, and `@begin/data` to 1.1.1
+- Updated comment text in default `GET /` Function
+
+---
+
+## [1.1.0] - 2019-01-06
+
+### Added
+
+- Adds new `@begin/data`! https://docs.begin.com/en/data/begin-data
+
+### Changed
+
+- Updated tests for `@begin/data`
+- Updated eslint rules
+
+---
+
 ## [1.0.10] - 2018-12-20
 
 ### Changed
