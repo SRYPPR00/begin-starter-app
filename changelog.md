@@ -2,6 +2,15 @@
 
 ---
 
+## [1.2.0] - 2019-03-14
+
+### Changed
+
+- Updated starter app to `@architect/architect` 5.5.8, and `@architect/functions` to 2.0.15
+- Updated various readme files
+
+---
+
 ## [1.1.11] - 2019-01-22
 
 ### Changed
