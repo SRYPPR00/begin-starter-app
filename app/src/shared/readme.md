@@ -4,7 +4,6 @@ The contents of `src/shared` get copied into each of your project's functions (a
 
 - `npx sandbox`
 - `npx hydrate`
-- `npx deploy`
 
 This means the modules in this folder can be required from any function in your Architect project.
 
@@ -31,3 +30,8 @@ Also, feel free to overwrite the contents of this file to describe your project'
 Everything in `src/shared` will be copied into all of your project's Lambdas, which has the potential to quickly bloat your application.
 
 Remember you want to keep your Lambda functions sub-5MB for optimal coldstart performance.
+
+
+## Note
+
+You should feel free to delete this file and directory!
