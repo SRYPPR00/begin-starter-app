@@ -125,7 +125,7 @@ test('data.get can read an entire table', async t => {
 /**
  * shut down the sandbox cleanly
  */
-test('sandbox.start', async t=> {
+test('sandbox.end', async t=> {
   t.plan(1)
   end()
   t.ok(true, 'shutdown')
