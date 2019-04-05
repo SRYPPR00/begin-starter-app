@@ -4,9 +4,9 @@
   "lockfileVersion": 1,
   "dependencies": {
     "@architect/functions": {
-      "version": "2.0.15",
-      "resolved": "https://registry.npmjs.org/@architect/functions/-/functions-2.0.15.tgz",
-      "integrity": "sha512-uuGyWNaABACHSGWYx5V7tHdAefjBgXCmJo+S+Xbo5zfTpAQ/mMrKvTpRgY3lhJhdF/lRYTDcxV5mtaxaE5YhKA==",
+      "version": "3.0.1",
+      "resolved": "https://registry.npmjs.org/@architect/functions/-/functions-3.0.1.tgz",
+      "integrity": "sha512-R6cqLP/FnaVcwurMdkHC3cAXGddaV3RMV8XMMFLI2TcMDeX3+pyQrwNTOcbvxHxXqFz4RgeZNfybBAVLHuwTNQ==",
       "requires": {
         "@architect/parser": "^1.1.6",
         "cookie": "^0.3.1",
